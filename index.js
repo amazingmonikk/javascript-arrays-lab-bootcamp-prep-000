@@ -36,7 +36,7 @@ var kittens = ["Milo", "Otis", "Garfield"]
 
 function appendKitten(name) {
   kittens = [...kittens, name];
-  return kittens;
+  return new kittens;
 }
 
 
